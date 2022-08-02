@@ -1,22 +1,116 @@
 :root {
---main-font: #757575;
---company-blue: #2196F3;
---company-black: #000000;
---company-white: #ffffff;
+    --background-color: #ffffff;
+    --company-blue: #2196F3;
+    --company-black: #000000;
+    --company-white: #ffffff;
+    --background-grey: #F5F4FA;
+    --header-black: #212121;
+    --main-font: #757575;
 
+}
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+   
+    color: var(--main-font);
+    background-color: var(--background-color);
+}
+header {
+    background-color: var(--company-white);
 }
 .logo {
     text-decoration: none;
+    line-height: 1.19;
 }
 .logo-blue {
     color: var(--company-blue);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
 }
 .logo-black {
     color: var(--company-black);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
 }
-body {
-    font-family: "roboto" , sans-serif ;
+.nav-menu {
+    text-decoration: none;
     font-size: 14px;
-    font-weight: 400;
     color: var(--main-font);
+    line-height: 1.17;
+    font-weight: 500;
+}
+.nav-menu:hover {
+    color: var(--company-blue);
+}
+.nav-menu:focus {
+    color: var(--company-blue);
+}
+.nav-menu-links {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--main-font);
+    line-height: 1.17;
+}
+.nav-menu-links:hover {
+    color: var(--company-blue);
+}
+.nav-menu-links:focus {
+    color: var(--company-blue);
+}
+.section-first {
+    background-color: var(--company-black);
+}
+.section-first-slogan {
+    color: var(--company-white);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+}
+.section-first-button {
+    background-color: var(--company-blue);
+    color: var(--company-white);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    cursor: pointer;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: var(--header-black);
+}
+.section-second-advantage {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: var(--header-black);
+}
+.section-second-advantage-desription {
+    font-size: 14px;
+   
+    line-height: 1.71;
+}
+.section-third {
+    background-color: var(--background-grey);
+}
+.section-third-name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+    color: var(--header-black);
+}
+.section-third-position {
+    font-size: 16px;
+   
+    line-height: 1.19;
+}
+.address-text {
+    font-style: normal;
+    font-size: 14px;
+    
+    line-height: 1.71;
 }
