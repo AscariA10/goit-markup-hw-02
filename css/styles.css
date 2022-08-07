@@ -6,7 +6,7 @@
     --background-grey: #F5F4FA;
     --header-black: #212121;
     --main-font: #757575;
-
+    --background-black: #2F303A;
 }
 body {
     font-family:'Roboto', sans-serif;
@@ -61,7 +61,7 @@ header {
     color: var(--company-blue);
 }
 .section-first {
-    background-color: var(--company-black);
+    background-color: var(--background-black);
 }
 .section-first-slogan {
     color: var(--company-white);
@@ -91,26 +91,51 @@ header {
 }
 .section-second-advantage-desription {
     font-size: 14px;
-   
     line-height: 1.71;
 }
-.section-third {
+.section-fourth {
     background-color: var(--background-grey);
 }
-.section-third-name {
+.section-fourth-name {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.19;
     color: var(--header-black);
 }
-.section-third-position {
+.section-fourth-position {
     font-size: 16px;
-   
     line-height: 1.19;
+}
+footer {
+    background-color: var(--background-black);
 }
 .address-text {
     font-style: normal;
     font-size: 14px;
-    
     line-height: 1.71;
+}
+.portfolio-button {
+    background-color: var(--background-grey);
+    color: var(--header-black);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.63;
+}
+.portfolio-button:hover {
+    background-color: var(--company-blue);
+    color: var(--company-white);
+    cursor: pointer;
+}
+.portfolio-button:focus {
+    background-color: var(--company-blue);
+    color: var(--company-white);
+}
+.portfolio-project-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    color: var(--header-black);
+}
+.portfolio-description {
+    line-height: 1.88;
 }
