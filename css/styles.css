@@ -10,6 +10,9 @@
     --main-button-hover: #188CE8;
     --footer-text-color: rgba(255, 255, 255, 0.6);
 }
+
+/* <<<<<<<<<<GENERAL NORMALISATION>>>>>>>>>>> */
+
 .unlist {
     list-style: none;
 }
@@ -35,6 +38,9 @@ header {
     clip-path: inset(50%);
     margin: -1px;
 }
+
+/* <<<<<<<<<<HEADER>>>>>>>>>>> */
+
 .logo {
     text-decoration: none;
     line-height: 1.19;
@@ -88,6 +94,9 @@ header {
 .current {
     color: var(--company-blue);
 }
+
+/* <<<<<<<<<<FIRST SECTION>>>>>>>>>>> */
+
 .section-first {
     background-color: var(--background-black);
 }
@@ -121,6 +130,9 @@ header {
     line-height: 1.17;
     color: var(--header-black);
 }
+
+/* <<<<<<<<<<SECOND SECTION>>>>>>>>>>> */
+
 .section-second-advantage {
     font-size: inherit;
     font-weight: 700;
@@ -131,6 +143,11 @@ header {
     /* font-size: 14px; */
     line-height: 1.71;
 }
+
+/* <<<<<<<<<<SECTION THIRD>>>>>>>>>>> */
+
+/* <<<<<<<<<<SECTION FOURTH>>>>>>>>>>> */
+
 .section-fourth {
     background-color: var(--background-grey);
 }
@@ -144,6 +161,9 @@ header {
     font-size: 16px;
     line-height: 1.19;
 }
+
+/* <<<<<<<<<<FOOTER>>>>>>>>>>> */
+
 footer {
     background-color: var(--background-black);
 }
@@ -151,6 +171,27 @@ footer {
     font-style: inherit;
     line-height: 1.71;
 }
+.footer-location{
+    text-decoration: none;
+    color: var(--company-white);
+    line-height: 1.71;
+}
+.footer-links{
+    text-decoration: none;
+    color: var(--footer-text-color);
+    line-height: 1.71;
+}
+.footer-location:hover ,
+.footer-location:focus ,
+.footer-links:hover ,
+.footer-links:focus{
+    color: var(--company-blue);
+}
+
+/* <<<<<<<<<<PORTFOLIO PAGE>>>>>>>>>>> */
+
+/* <<<<<<<<<<BUTTON LIST>>>>>>>>>>> */
+
 .portfolio-button {
     font-family: inherit;
     background-color: var(--background-grey);
@@ -169,6 +210,8 @@ footer {
     background-color: var(--company-blue);
     color: var(--company-white);
 }
+/* <<<<<<<<<<PORTFOLIO PROJECTS>>>>>>>>>>> */
+
 .portfolio-project-title {
     font-size: 18px;
     font-weight: 700;
@@ -179,20 +222,4 @@ footer {
 .portfolio-description {
     font-size: 16px;
     line-height: 1.88;
-}
-.footer-location{
-    text-decoration: none;
-    color: var(--company-white);
-    line-height: 1.71;
-}
-.footer-links{
-    text-decoration: none;
-    color: var(--footer-text-color);
-    line-height: 1.71;
-}
-.footer-location:hover ,
-.footer-location:focus ,
-.footer-links:hover ,
-.footer-links:focus{
-    color: var(--company-blue);
 }
